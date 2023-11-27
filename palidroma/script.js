@@ -1,9 +1,9 @@
 var parola = prompt("Inserisci una parola:");
 
 if (isPalindroma(parola)) {
-    document.body.innerHTML += "<p>La parola inserita è palindroma!</p>";
+    document.body.innerHTML += "<h2>La parola inserita è palindroma!</h2>";
 } else {
-    document.body.innerHTML += "<p>La parola inserita non è palindroma.</p>";
+    document.body.innerHTML += "<h2>La parola inserita non è palindroma.</h2>";
 }
 
 function isPalindroma(parola) {
